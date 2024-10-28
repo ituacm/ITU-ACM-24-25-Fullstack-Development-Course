@@ -3,13 +3,6 @@
 
 This repository contains a curriculum designed to guide you through your journey in fullstack development provided by ITUACM DevTeam. We will develop a fully functional fullstack application using the MERN Stack (MongoDB, Express, React, Node.js). Throughout the project, we will store user data in the backend and display and manipulate this data on the frontend.
 
-## Language Options
-
-- [Türkçe](#turkce)
-- [English](#english)
-
-## English
-
 ### Contents
 
 1. [Course Plan](#course-plan)

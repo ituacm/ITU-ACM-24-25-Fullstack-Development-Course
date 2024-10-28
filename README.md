@@ -6,7 +6,7 @@ Bu repo, Fullstack geliştirme yolculuğunuzda size rehberlik edecek bir eğitim
 
 1. [Ders Planı](#ders-planı)
 2. [Kurulum](#kurulum)
-3. [Projeyi Çalıştırma](#projeyi-çalistirma)
+3. [Projeyi Çalıştırma](#projeyi-çalıştırma)
 4. [Ders İçerikleri](#ders-içerikleri)
 5. [Devamı](#devamı)
 

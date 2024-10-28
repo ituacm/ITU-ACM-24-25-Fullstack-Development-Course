@@ -1,6 +1,11 @@
 # MERN Stack Fullstack Development Course
 
-Bu repo, Fullstack geliştirme yolculuğunuzda size rehberlik edecek bir eğitim müfredatını içermektedir. MERN Stack (MongoDB, Express, React, Node.js) kullanarak tam işlevsel bir Fullstack uygulama geliştireceğiz. Proje boyunca, kullanıcı verilerini backend'de saklayarak frontend üzerinde gösterecek ve bu veriler üzerinde CRUD işlemleri gerçekleştireceğiz.
+Bu repo, ITUACM DevTeam tarafından verilen Fullstack geliştirme yolculuğunuzda size rehberlik edecek bir eğitim müfredatını içermektedir. MERN Stack (MongoDB, Express, React, Node.js) kullanarak tam işlevsel bir Fullstack uygulama geliştireceğiz. Proje boyunca, kullanıcı verilerini backend'de saklayarak frontend üzerinde gösterecek ve bu veriler üzerinde CRUD işlemleri gerçekleştireceğiz.
+
+## Dil Seçenekleri
+
+- [Türkçe](#)
+- [English](#)
 
 ## İçindekiler
 

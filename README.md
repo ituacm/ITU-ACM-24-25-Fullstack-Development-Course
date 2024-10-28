@@ -1,69 +1,72 @@
+
 # MERN Stack Fullstack Development Course
 
-Bu repo, ITUACM DevTeam tarafından verilen Fullstack geliştirme yolculuğunuzda size rehberlik edecek bir eğitim müfredatını içermektedir. MERN Stack (MongoDB, Express, React, Node.js) kullanarak tam işlevsel bir Fullstack uygulama geliştireceğiz. Proje boyunca, kullanıcı verilerini backend'de saklayarak frontend üzerinde gösterecek ve bu veriler üzerinde CRUD işlemleri gerçekleştireceğiz.
+This repository contains a curriculum designed to guide you through your journey in fullstack development provided by ITUACM DevTeam. We will develop a fully functional fullstack application using the MERN Stack (MongoDB, Express, React, Node.js). Throughout the project, we will store user data in the backend and display and manipulate this data on the frontend.
 
-## Dil Seçenekleri
+## Language Options
 
-- [Türkçe](#)
-- [English](#)
+- [Türkçe](#turkce)
+- [English](#english)
 
-## İçindekiler
+## English
 
-1. [Ders Planı](#ders-planı)
-2. [Kurulum](#kurulum)
-3. [Projeyi Çalıştırma](#projeyi-çalıştırma)
-4. [Ders İçerikleri](#ders-içerikleri)
-5. [Devamı](#devamı)
+### Contents
 
-## Ders Planı
+1. [Course Plan](#course-plan)
+2. [Setup](#setup)
+3. [Running the Project](#running-the-project)
+4. [Course Contents](#course-contents)
+5. [Next Steps](#next-steps)
 
-| Ders  | Konular                                                                                          |
-|-------|--------------------------------------------------------------------------------------------------|
-| 1     | Giriş, Kurulumlar, JavaScript Temelleri (ES6+)                                                   |
-| 2     | Backend Giriş: HTTP, REST API, Express ile İlk Endpoint, MongoDB Bağlantısı, JSON Veri Yapısı    |
-| 3     | Veritabanı CRUD İşlemleri, MongoDB'de İlişkisel ve İç İçe Verilerle Çalışma                      |
-| 4     | Frontend Giriş: HTML, CSS, Flexbox, Grid, React Komponentleri ve Router                          |
-| 5     | Kimlik Doğrulama ve Güvenlik: JWT, Access/Refresh Tokens                                         |
-| 6     | Frontend-Backend Bağlantısı: API İstekleri, Axios, CORS, HTTP Only Cookies & Authentication      |
-| 7     | DevOps: Docker, CI/CD Süreçleri                                                                  |
+### Course Plan
 
-## Kurulum
+| Lecture | Topics                                                                                          |
+|---------|--------------------------------------------------------------------------------------------------|
+| 1       | Introduction, Setup, JavaScript Fundamentals (ES6+)                                            |
+| 2       | Backend Introduction: HTTP, REST API, First Endpoint with Express, MongoDB Connection, JSON Structure |
+| 3       | Working with Database: CRUD Operations, Working with Relational and Nested Data in MongoDB     |
+| 4       | Frontend Introduction: HTML, CSS, Flexbox, Grid, React Components and Router                   |
+| 5       | Authentication and Security: JWT, Access/Refresh Tokens                                         |
+| 6       | Connecting Frontend and Backend: API Requests, Axios, CORS, HTTP Only Cookies & Authentication  |
+| 7       | DevOps: Docker, CI/CD Processes                                                                  |
 
-Projeye başlamadan önce aşağıdaki araçları kurmanız gerekmektedir:
+### Setup
+
+Before starting the project, please install the following tools:
 
 - [VSCode](https://code.visualstudio.com/)
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [Postman](https://www.postman.com/)
 
-### Reposu Klonlama
+### Cloning the Repo
 
 ```bash
 git clone <repo-url>
 cd mern-fullstack-course
 ```
 
-### Backend Kurulumu
+### Backend Setup
 
-Backend klasörüne gidin ve gerekli paketleri yükleyin:
+Navigate to the backend folder and install the necessary packages:
 
 ```bash
 cd backend
 npm install
 ```
 
-### Frontend Kurulumu
+### Frontend Setup
 
-Frontend klasörüne gidin ve gerekli paketleri yükleyin:
+Navigate to the frontend folder and install the necessary packages:
 
 ```bash
 cd frontend
 npm install
 ```
 
-## Projeyi Çalıştırma
+### Running the Project
 
-Backend ve frontend'i çalıştırmak için iki farklı terminal açarak şu komutları çalıştırın:
+To run the backend and frontend, open two separate terminals and execute the following commands:
 
 1. **Backend**:
 
@@ -79,72 +82,65 @@ Backend ve frontend'i çalıştırmak için iki farklı terminal açarak şu kom
    npm start
    ```
 
-Her iki servis de çalıştığında, uygulamanın frontendine tarayıcı üzerinden [http://localhost:3000](http://localhost:3000) adresinden ulaşabilirsiniz.
+Once both services are running, you can access the application's frontend at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## Ders İçerikleri
+### Course Contents
 
-### Lecture 1 - Introduction
+#### Lecture 1 - Introduction
 
-- **Konular**: Fullstack geliştirmeye giriş, MERN Stack tanıtımı.
-- **Kurulumlar**: VSCode, Node.js, MongoDB, Postman.
-- **JavaScript Temelleri**: let/const, arrow functions, destructuring, async/await, Promises.
-- **Uygulama**: Basit bir Node.js sunucu kurulumu ve çalıştırma testi.
-
----
-
-### Lecture 2 - Introduction to Backend Development
-
-- **Konular**: İnternet nasıl çalışır? HTTP, REST API kavramları, JSON veri yapısı.
-- **Express Giriş**: İlk API endpoint’i oluşturma.
-- **MongoDB Giriş**: Veritabanı bağlantısı, CRUD işlemleri.
+- **Topics**: Introduction to fullstack development, MERN Stack overview.
+- **Setup**: VSCode, Node.js, MongoDB, Postman.
+- **JavaScript Fundamentals**: let/const, arrow functions, destructuring, async/await, Promises.
+- **Application**: Basic Node.js server setup and testing.
 
 ---
 
-### Lecture 3 - Working with MongoDB
+#### Lecture 2 - Introduction to Backend Development
 
-- **Konular**: MongoDB'de veritabanı tasarımı, ilişkisel ve iç içe verilerle çalışma.
-- **Uygulama**: CRUD işlemleri ile kullanıcı verilerini yönetme.
-
----
-
-### Lecture 4 - Introduction to Frontend Development
-
-- **Konular**: HTML, CSS, Flexbox, Grid, React kompenent yapısı.
-- **React Router**: Sayfa yönlendirme.
-- **Uygulama**: Basit bir React uygulaması kurma.
+- **Topics**: How does the internet work? HTTP, REST API concepts, JSON structure.
+- **Express Introduction**: Creating the first API endpoint.
+- **MongoDB Introduction**: Database connection, CRUD operations.
 
 ---
 
-### Lecture 5 - Authentication and Security
+#### Lecture 3 - Working with MongoDB
 
-- **Konular**: JWT (JSON Web Token), Access ve Refresh Token kullanımı.
-- **Middleware**: Kimlik doğrulama ve yetkilendirme.
-
----
-
-### Lecture 6 - Connecting Frontend and Backend
-
-- **Konular**: API istekleri, Axios, CORS ayarları.
-- **HTTP Only Cookies**: Güvenli oturum yönetimi.
+- **Topics**: Database design in MongoDB, working with relational and nested data.
+- **Application**: Managing user data with CRUD operations.
 
 ---
 
-### Lecture 7 - DevOps
+#### Lecture 4 - Introduction to Frontend Development
 
-- **Konular**: Docker ile uygulama ortamı oluşturma.
-- **CI/CD**: Sürekli entegrasyon ve dağıtım süreçleri.
+- **Topics**: HTML, CSS, Flexbox, Grid, React component structure.
+- **React Router**: Page routing.
+- **Application**: Setting up a basic React application.
 
 ---
 
-## Devamı
+#### Lecture 5 - Authentication and Security
 
-Bu kurs boyunca öğrendiklerinizi pratiğe dökmek için projeler üzerinde çalışmayı unutmayın! Her dersin sonunda uygulama örnekleri ile öğrendiklerinizi pekiştirebilirsiniz. Başarılar dilerim!
+- **Topics**: JWT (JSON Web Token), usage of Access and Refresh Tokens.
+- **Middleware**: Authentication and authorization.
 
+---
 
-### Reposu Klonlama
+#### Lecture 6 - Connecting Frontend and Backend
 
-```bash
-git clone <repo-url>
-cd mern-fullstack-course
+- **Topics**: API requests, Axios, CORS configurations.
+- **HTTP Only Cookies**: Secure session management.
+
+---
+
+#### Lecture 7 - DevOps
+
+- **Topics**: Setting up the application environment with Docker.
+- **CI/CD**: Continuous integration and deployment processes.
+
+---
+
+## Next Steps
+
+Don't forget to practice what you've learned throughout the course by working on projects! You can reinforce your knowledge with application examples at the end of each lecture. Good luck!

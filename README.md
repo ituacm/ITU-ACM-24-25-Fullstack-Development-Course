@@ -1,7 +1,6 @@
-
 # MERN Stack Fullstack Development Course
 
-This repository contains a curriculum designed to guide you through your journey in fullstack development provided by ITUACM DevTeam. We will develop a fully functional fullstack application using the MERN Stack (MongoDB, Express, React, Node.js). Throughout the project, we will store user data in the backend and display and manipulate this data on the frontend.
+This repository contains a curriculum designed to guide you through your journey in fullstack development provided by ITUACM DevTeam. We will develop a fully functional fullstack application using the MERN Stack (MongoDB, Express, React, Node.js) during the course. Throughout the project, we will store user data in the backend and display and manipulate this data on the frontend.
 
 ### Contents
 
@@ -13,15 +12,15 @@ This repository contains a curriculum designed to guide you through your journey
 
 ### Course Plan
 
-| Lecture | Topics                                                                                          |
-|---------|--------------------------------------------------------------------------------------------------|
-| 1       | Introduction, Setup, JavaScript Fundamentals (ES6+)                                            |
+| Lecture | Topics                                                                                                |
+| ------- | ----------------------------------------------------------------------------------------------------- |
+| 1       | Introduction, Setup, JavaScript Fundamentals (ES6+)                                                   |
 | 2       | Backend Introduction: HTTP, REST API, First Endpoint with Express, MongoDB Connection, JSON Structure |
-| 3       | Working with Database: CRUD Operations, Working with Relational and Nested Data in MongoDB     |
-| 4       | Frontend Introduction: HTML, CSS, Flexbox, Grid, React Components and Router                   |
-| 5       | Authentication and Security: JWT, Access/Refresh Tokens                                         |
-| 6       | Connecting Frontend and Backend: API Requests, Axios, CORS, HTTP Only Cookies & Authentication  |
-| 7       | DevOps: Docker, CI/CD Processes                                                                  |
+| 3       | Working with Database: CRUD Operations, Working with Relational and Nested Data in MongoDB            |
+| 4       | Frontend Introduction: HTML, CSS, Flexbox, Grid, React Components and Router                          |
+| 5       | Authentication and Security: JWT, Access/Refresh Tokens                                               |
+| 6       | Connecting Frontend and Backend: API Requests, Axios, CORS, HTTP Only Cookies & Authentication        |
+| 7       | DevOps: Docker, CI/CD Processes                                                                       |
 
 ### Setup
 
@@ -92,8 +91,8 @@ Once both services are running, you can access the application's frontend at [ht
 
 #### Lecture 2 - Introduction to Backend Development
 
-- **Topics**: How does the internet work? HTTP, REST API concepts, JSON structure.
-- **Express Introduction**: Creating the first API endpoint.
+- **Topics**: How does the internet work? HTTP, REST API concepts.
+- **Express Introduction**: Creating the first API endpoint. Learn about middlewares.
 - **MongoDB Introduction**: Database connection, CRUD operations.
 
 ---
@@ -107,7 +106,8 @@ Once both services are running, you can access the application's frontend at [ht
 
 #### Lecture 4 - Introduction to Frontend Development
 
-- **Topics**: HTML, CSS, Flexbox, Grid, React component structure.
+- **Topics**: History of web development, HTML, CSS, Flexbox, Grid.
+- **SPA Concepts**: Component structure, State management.
 - **React Router**: Page routing.
 - **Application**: Setting up a basic React application.
 

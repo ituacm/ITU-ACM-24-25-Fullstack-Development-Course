@@ -1,4 +1,4 @@
-# JavaScript Fundamentals - Ders Akışı
+# JavaScript Fundamentals
 
 Bu ders, JavaScript'in temel konularını ele alarak, Express.js ve React.js gibi modern kütüphanelerle çalışacak öğrenciler için sağlam bir temel oluşturmayı amaçlar.
 

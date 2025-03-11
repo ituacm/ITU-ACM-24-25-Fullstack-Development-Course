@@ -4,7 +4,15 @@ import {
   editUser,
   getUsers,
   createUser,
-} from "../controllers/userController";
+  checkIfUserExists,
+  addPost,
+  deletePostFromUser,
+} from "../controllers/userController.js";
+import {
+  createPost,
+  deletePost,
+  getPostsByUserId,
+} from "../controllers/postController.js";
 
 const router = express.Router();
 
@@ -15,3 +23,16 @@ router.post("/", createUser);
 router.patch("/:id", editUser);
 
 router.delete("/:id", deleteUser);
+
+router.get("/:userId/posts", checkIfUserExists, getPostsByUserId);
+
+router.post("/:userId/posts", checkIfUserExists, createPost, addPost);
+
+router.delete(
+  "/:userId/posts/:postId",
+  checkIfUserExists,
+  deletePost,
+  deletePostFromUser
+);
+
+export default router;

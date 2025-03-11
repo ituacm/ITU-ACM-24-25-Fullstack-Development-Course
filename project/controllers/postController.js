@@ -27,9 +27,8 @@ export const createPost = async (req, res, next) => {
     await post.save();
     req.postId = post._id;
     res.status(201).json(post);
-    next();
   } catch (err) {
-    return res.status(400).json("Error occured: " + err);
+    console.log(err);
   }
 };
 

@@ -65,12 +65,13 @@ export const checkIfUserExists = async (req, res, next) => {
 
 export const addPost = async (req, res, next) => {
   try {
-    const user = await User.findById(req.params.userId);
-    // await createPost(req, res, next);
+    let user = await User.findById(req.params.userId);
+    await createPost(req, res, next);
+    user = await User.findById(req.params.userId);
     user.posts.push(req.postId);
     await user.save();
   } catch (err) {
-    return res.status(400).send("Error occured: " + err);
+    console.log(err);
   }
 };
 

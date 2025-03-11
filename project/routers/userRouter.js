@@ -26,7 +26,7 @@ router.delete("/:id", deleteUser);
 
 router.get("/:userId/posts", checkIfUserExists, getPostsByUserId);
 
-router.post("/:userId/posts", checkIfUserExists, createPost, addPost);
+router.post("/:userId/posts", addPost);
 
 router.delete(
   "/:userId/posts/:postId",

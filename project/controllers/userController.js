@@ -52,12 +52,36 @@ export const deleteUser = async (req, res) => {
 export const checkIfUserExists = async (req, res, next) => {
   try {
     const user = await User.findById(req.params.userId);
-    res.send("Kullanıcı Bulundu: " + user.username);
     next();
   } catch (err) {
     if (err.name === "CastError") {
-      return res.status(404).send("User not found.");
+      return res.status(404).send("Kullanıcı bulunamadı.");
     }
+    console.log(err);
+    res.status(400).send("Error occured: " + err);
+  }
+};
+
+export const addPostToUser = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.params.userId);
+    user.posts.push(req.postId);
+    await user.save();
+  } catch (err) {
+    console.log(err);
+    res.status(400).send("Error occured: " + err);
+  }
+};
+
+export const deletePostFromUser = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.params.userId);
+    user.posts = user.posts.filter(
+      (postId) => postId.toString() != req.params.postId
+    );
+    await user.save();
+    next();
+  } catch (err) {
     console.log(err);
     res.status(400).send("Error occured: " + err);
   }

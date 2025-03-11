@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import User from "./models/User.js";
+import userRouter from "./routers/userRouter.js";
 
 const app = express();
 
@@ -18,6 +18,8 @@ db.once("open", () => {
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
+
+app.use("/users", userRouter);
 
 app.listen(3000, () => {
   console.log("Server is running on port 3000");

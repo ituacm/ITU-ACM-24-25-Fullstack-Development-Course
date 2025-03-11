@@ -1,4 +1,4 @@
-import User from "../models/User";
+import User from "../models/User.js";
 
 export const getUsers = async (req, res) => {
   try {
@@ -44,6 +44,20 @@ export const deleteUser = async (req, res) => {
     await user.deleteOne();
     res.status(200).json("User deleted successfully.");
   } catch (err) {
+    console.log(err);
+    res.status(400).send("Error occured: " + err);
+  }
+};
+
+export const checkIfUserExists = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.params.userId);
+    res.send("Kullanıcı Bulundu: " + user.username);
+    next();
+  } catch (err) {
+    if (err.name === "CastError") {
+      return res.status(404).send("User not found.");
+    }
     console.log(err);
     res.status(400).send("Error occured: " + err);
   }

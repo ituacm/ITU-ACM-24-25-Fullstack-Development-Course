@@ -18,9 +18,7 @@ This repository contains a curriculum designed to guide you through your journey
 | 2       | Backend Introduction: HTTP, REST API, First Endpoint with Express, MongoDB Connection, JSON Structure |
 | 3       | Working with Database: CRUD Operations, Working with Relational and Nested Data in MongoDB            |
 | 4       | Frontend Introduction: HTML, CSS, Flexbox, Grid, React Components and Router                          |
-| 5       | Authentication and Security: JWT, Access/Refresh Tokens                                               |
-| 6       | Connecting Frontend and Backend: API Requests, Axios, CORS, HTTP Only Cookies & Authentication        |
-| 7       | DevOps: Docker, CI/CD Processes                                                                       |
+| 5       | Connecting Frontend and Backend: API Requests, Axios, CORS, HTTP Only Cookies & Authentication        |
 
 ### Setup
 
@@ -71,7 +69,7 @@ To run the backend and frontend, open two separate terminals and execute the fol
 
    ```bash
    cd frontend
-   npm start
+   npm run dev
    ```
 
 Once both services are running, you can access the application's frontend at [http://localhost:3000](http://localhost:3000).
@@ -113,26 +111,14 @@ Once both services are running, you can access the application's frontend at [ht
 
 ---
 
-#### Lecture 5 - Authentication and Security
 
-- **Topics**: JWT (JSON Web Token), usage of Access and Refresh Tokens.
-- **Middleware**: Authentication and authorization.
-
----
-
-#### Lecture 6 - Connecting Frontend and Backend
+#### Lecture 5 - Connecting Frontend and Backend
 
 - **Topics**: API requests, Axios, CORS configurations.
 - **HTTP Only Cookies**: Secure session management.
 
 ---
 
-#### Lecture 7 - DevOps
-
-- **Topics**: Setting up the application environment with Docker.
-- **CI/CD**: Continuous integration and deployment processes.
-
----
 
 ## Next Steps
 
